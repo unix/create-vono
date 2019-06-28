@@ -8,7 +8,7 @@
     "start": "func-service dev",
     "build": "func-service build",
     "lint": "tslint -c tslint.yml -p tsconfig.json",
-    "release": "arn build && yarn publish --non-interactive"
+    "release": "yarn build && yarn publish --non-interactive"
   },
   "dependencies": {
     "func": "^1.1.0"

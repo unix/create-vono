@@ -1,0 +1,37 @@
+{
+  "name": "create-vono",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "func-service dev",
+    "build": "func-service build",
+    "lint": "tslint -c tslint.yml -p tsconfig.json"
+  },
+  "dependencies": {
+    "func": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "ansi-escapes": "^4.2.0",
+    "chalk": "^2.4.2",
+    "func": "^1.0.4",
+    "func-service": "^0.1.1",
+    "git-clone": "^0.1.0",
+    "ncc": "^0.3.6",
+    "ora": "^3.4.0",
+    "prompt-sync": "^4.1.7",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "tslint-config-lambdas": "^1.1.0",
+    "typescript": "^3.5.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "bin": {
+    "create-vono": "./dist/bin.js"
+  }
+}

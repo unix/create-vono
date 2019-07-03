@@ -37,7 +37,7 @@ export class Major {
     spinner.start('template installing...')
     return new Promise((resolve, reject) => {
       require('git-clone')(
-        'https://github.com/WittBulter/vono',
+        'https://github.com/unix/vono',
         this.projectPath,
         { shallow: true },
         (err) => {

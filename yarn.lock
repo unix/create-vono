@@ -177,10 +177,10 @@ func-service@^0.1.1:
   resolved "https://registry.yarnpkg.com/func-service/-/func-service-0.1.1.tgz#2dc0b155d887afb8b8e14aaf82da793d5f706f91"
   integrity sha512-VhNlpDdl8D8X3FCdTk37r3l/evZrunJY/T3GLQr1HUyHzbwTc3mOW+BbgDEjgq1UXp+6uw8k1hCTFZ0TePma0Q==
 
-func@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/func/-/func-1.1.0.tgz#858fafd84210d584eaec66363bf6ed12131fa781"
-  integrity sha512-znidUhgUETnBJfWEnVFVlw96CExqcUh24DLoA187ArHj3Nlr6kURLwfpTDS9rYTE4ybfmSfME6fxNtxhVX7Luw==
+func@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/func/-/func-1.3.0.tgz#ac1d7c8fbe201cd210a9f02789453fe58986abcc"
+  integrity sha512-aDHQBRbwjYYDUOlgEBVMLlwAKXr5x0KH1bTFVmPrjdGR0Uf4Ef838TiSNmaGa8F64E6WNdCwj62FUgLSsDBFrg==
   dependencies:
     arg "^4.1.0"
     reflect-metadata "^0.1.13"
